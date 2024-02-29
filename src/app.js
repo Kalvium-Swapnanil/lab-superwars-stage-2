@@ -26,7 +26,6 @@ const initPlayers = (players) => {
     let detailedPlayers = [];
     // Create players using for loop
     // Type your code here
-    let detailedPlayers = [];
     for (var i = 0; i < players.length; i++) {
       if (i % 2 === 0) {
         var type = "hero";
@@ -54,7 +53,7 @@ const getRandomStrength = () => {
     const strength = Math.floor(Math.random() * 100) + 1;
     return strength;
   };
-}
+
 
 const buildPlayers = (players, type) => {
     let fragment = '';
